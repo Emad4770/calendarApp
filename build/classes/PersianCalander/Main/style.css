@@ -1,0 +1,134 @@
+/*#lblFD{
+    -fx-font-size: 69px;
+}*/
+#btnnxtm{
+
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size:17px;
+    -fx-padding: 10 20 10 20;
+    /*-fx-background-radius:*/ 
+    
+}
+#btnnxtm:pressed{
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 6 0,2 0 3 0, 2 0 3 0, 2 0 3 0;
+
+}
+#btnnxty{
+    -fx-background-color: 
+        #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+    -fx-padding: 10 20 10 20;
+
+
+}
+
+#btnnxty:pressed{
+
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 6 0,2 0 3 0, 2 0 3 0, 2 0 3 0;
+}
+#btnprevy{
+    -fx-background-color: 
+        #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+    -fx-padding: 10 20 10 20;
+
+
+}
+/*#btnprevy:hover{
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}*/
+
+#btnprevy:pressed{
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 6 0,2 0 3 0, 2 0 3 0, 2 0 3 0;
+}
+
+#btnprevy Text{
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+
+#btnprevm{
+
+
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+    -fx-padding: 10 20 10 20;
+}
+
+#btnprevm:pressed{
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 6 0,2 0 3 0, 2 0 3 0, 2 0 3 0;
+}
+
+#btntoday{
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: #395306;
+
+}
+
+#btntoday:pressed{
+    /*-fx-padding: 10 15 13 15;*/
+    -fx-background-insets: 2 0 6 0,2 0 3 0, 2 0 3 0, 2 0 3 0;
+}
+
+#vbeve{
+
+    -fx-background-color: rgba(255,255,255,0.2);
+}
+#lblevent{
+    -fx-background-color: rgba(255,255,255,0.2);
+}
+#titlehb{
+
+    /*-fx-background-color: rgba(255,255,255,0.3);*/
+
+}
+

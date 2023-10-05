@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="299.0" prefWidth="388.0" style="-fx-background-color: ;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea fx:id="ta" focusTraversable="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="273.0" prefWidth="435.0" promptText="Add Notes Here...">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="save" mnemonicParsing="false" prefHeight="31.0" prefWidth="430.0" text="Save &amp; Exite">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="58.0" prefWidth="301.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="datetxt" editable="false" prefHeight="67.0" prefWidth="224.0">
+         <font>
+            <Font size="21.0" />
+         </font></TextField>
+      <Button fx:id="datebtn" mnemonicParsing="false" prefHeight="50.0" prefWidth="77.0" style="-fx-background-image: url(&quot;cal.png&quot;);" textOverrun="CLIP">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="61.0">
+               <image>
+                  <Image url="@../IMAGE/cal.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+   </children>
+</HBox>
